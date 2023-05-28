@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Grouped suite" >
+    <suite-files>
+        <suite-file path="./regression.xml" />
+        <suite-file path="./settersgetters.xml" />
+    </suite-files>
+<!--    <test name="Included test">-->
+<!--        <classes>-->
+<!--            <class name="employees.PersonTest"></class>-->
+<!--            <class name="employees.SettersGettersTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
